@@ -1,0 +1,41 @@
+body{font-size:12px;}
+
+.ui-tabs-panel{overflow:auto}
+.ui-tabs-vertical { width: 80%; margin:15px auto; padding:0; display:block; position:relative; overflow:hidden;}
+.ui-tabs-vertical .ui-tabs-nav { padding: 1em 0 0 1em; float: left; width: 12em; height:100%; border-top:none; border-bottom:none; border-left:none; background-position: top; position:absolute;}
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; width:100%}
+.ui-tabs-vertical .ui-tabs-nav li { display:block; padding:0; overflow:hidden;}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; border-right-width: 1px; border-right-width: 1px; }
+
+.ui-tabs-vertical .ui-tabs-panel {margin-left:13em; padding: 1em; float: none; width: auto;}
+.ui-tabs-vertical .ui-tabs-nav .ui-state-active a, .ui-tabs-vertical .ui-tabs-nav .ui-state-hover a {outline: none;} /*borde focus*/
+
+#titulo{ width: 80%; margin:15px auto;}
+#titulo span{font-size:2.5em; padding:5px 15px;}
+
+#tabs{min-height:400px;}
+
+form{width:100%; margin:0 auto;}
+form input[type="text"]{padding: 2px 1%; margin: 0; border: 1px solid #ccc; margin-top: .1em; width:98%; display:block;}
+form select{padding: 2px 2% 2px 0; margin: 0; border: 1px solid #CCC; margin-top: .1em; width:98%; display:block; border-radius: 6px;}
+form label {width:100%; display:block;}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: .5em 0;
+	width: 23%;
+	margin-left:2%;
+	float: left;
+}
+
+fieldset.boton{
+	width: 97%;
+	margin-right:3%;
+	float: none;
+	clear:both;
+	text-align:left;
+}
+
+.resoult{overflow:auto;}
